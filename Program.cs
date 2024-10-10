@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿case ConsoleKey.D3:
+case ConsoleKey.NumPad3:
+    Console.WriteLine($"\nРезультат операции «+»: {a} + {b} = {a + b}");
+    Console.ReadKey();
+    break;
