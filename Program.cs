@@ -1,6 +1,6 @@
 ﻿
 
-using System;
+double a = 0, b = 0;
 
 while (true)
 {
@@ -33,7 +33,11 @@ while (true)
             Console.WriteLine($"\nРезультат операции «+»: {a} + {b} = {a + b}");
             Console.ReadKey();
             break;
-            double a = 0, b = 0;
+        case ConsoleKey.D4:
+        case ConsoleKey.NumPad4:
+            Console.WriteLine($"\nРезультат операции «-»: {a} - {b} = {a - b}");
+            Console.ReadKey();
+            break;
         case ConsoleKey.D7:
         case ConsoleKey.NumPad7:
             return;
