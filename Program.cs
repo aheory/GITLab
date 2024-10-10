@@ -1,5 +1,7 @@
 ﻿
 
+using System;
+
 double a = 0, b = 0;
 
 while (true)
@@ -36,6 +38,11 @@ while (true)
         case ConsoleKey.D4:
         case ConsoleKey.NumPad4:
             Console.WriteLine($"\nРезультат операции «-»: {a} - {b} = {a - b}");
+            Console.ReadKey();
+            break;
+        case ConsoleKey.D5:
+        case ConsoleKey.NumPad5:
+            Console.WriteLine($"\nРезультат операции «*»: {a} * {b} = {a * b}");
             Console.ReadKey();
             break;
         case ConsoleKey.D7:
